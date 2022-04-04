@@ -1,0 +1,7 @@
+global:
+  name: {{ .Values.global.name }}
+
+data:
+{{- range $key, $value := .Values.data }}
+  - {{ $key }}
+{{- end }}

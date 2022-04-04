@@ -1,0 +1,6 @@
+global:
+  name: 🤡
+  unimportant: 🚗
+
+data:
+  parent_chart: child
