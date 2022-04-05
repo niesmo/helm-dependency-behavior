@@ -1,7 +1,13 @@
 global:
   name: {{ .Values.global.name }}
-
+  theActualCar: {{ .Values.global.carModel }}
+  globaldata:
+    - /straight/from/template
+  {{- range $key, $value := .Values.global.globalData }}
+    - {{ $key }}
+  {{- end }}
 data:
+  - /straight/from/template
 {{- range $key, $value := .Values.data }}
   - {{ $key }}
 {{- end }}

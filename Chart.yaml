@@ -1,6 +1,7 @@
 apiVersion: v2
 name: main-chart
 version: 0.0.1
+appVersion: "0.0.1"
 dependencies:
   - name: random-template
     repository: "file://../random-template"

@@ -1,6 +1,6 @@
 global:
   name: 🤡
-  unimportant: 🚗
-
+  globalData:
+    /parent/chart: meaningless_value
 data:
-  parent_chart: child
+  /parent/chart: meaningless_value

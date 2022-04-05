@@ -1,5 +1,7 @@
 global:
   name: 🤡
-
-# data:
-#   randomtemplate: waw
+  carModel: 🚗
+  globalData:
+    /random/template:
+data:
+  /random/template:
